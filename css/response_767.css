@@ -1522,6 +1522,9 @@
     .greeting.pb {
         padding-bottom: 14px;
     }
+    .rating .block_title {
+        max-width: calc(100% - 150px);
+    }
 
 
 }

@@ -14345,7 +14345,7 @@ background: #64C841;
     line-height: 14px;
     color: #FFFFFF;
     padding: 3px 10px;
-    background: #0500AF;
+    background: var(--main_color);
     border-radius: 57px;
     display: block;
     width: 116px;
@@ -14358,6 +14358,7 @@ background: #64C841;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 22px;
+    position: relative;
 }
 .rating .block_title {
     font-weight: 700;
@@ -14407,6 +14408,9 @@ background: #64C841;
     display: flex;
     align-items: center;
     margin-left: 22px;
+    position: absolute;
+    right: 0px;
+    top: 0;
 }
 .select-right span {
     margin-right: 14px;
@@ -14500,7 +14504,7 @@ background: #64C841;
     color: #fff;
     position: relative;    
     transition: width .2s linear;   
-    background: #0B00D8;
+    background: var(--main_color);
     margin-top: auto;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -14606,7 +14610,6 @@ background: #64C841;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    opacity: 0.5;
     white-space: nowrap;
 }
 .rating-block_item-text button {
@@ -14671,7 +14674,7 @@ background: #64C841;
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    background: #0B00D8;
+    background: var(--main_color);
 }
 
 
@@ -14738,7 +14741,7 @@ background: #64C841;
     justify-content: center;  
 }
 .modul_item .modul_item-top-icon svg {
-     fill: #0A00C5;
+     fill: var(--main_color);
 }
 .modul_item:nth-child(1) .modul_item-top-icon svg {   
     width: 42px;
@@ -14836,12 +14839,12 @@ background: #64C841;
     line-height: 16px;
     color: #FFFFFF; 
     padding: 8px 21px;
-    background: #0601B7;
+    background: var(--main_color);
     border-radius: 55px;
     border: 1px solid transparent;
 }
 .modul_item:hover {
-    background: linear-gradient(93.71deg, #0056D8 0%, #0500AF 100%);
+    background: var(--main_color);
 }
 .modul_item:hover .modul_item-top-title {
     color: #fff;
