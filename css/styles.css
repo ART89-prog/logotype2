@@ -13725,6 +13725,17 @@ background: #64C841;
     padding: 8px 18px 11px 15px;
     border-radius: 0 9px 9px 9px;
 }
+.details_item-dialog-link {
+    text-decoration: none;
+    padding: 8px 15px;
+    background: #0601B7;
+    border-radius: 76px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+}
 .dialog_item-author {
     font-weight: 700;
     font-size: 14px;
@@ -14952,4 +14963,100 @@ background: #64C841;
     left: -14px;
     bottom: 0;
     background: #E1DEFF;
+}
+
+.details-modal {
+    max-width: 590px;
+    width: 100%;
+    padding: 20px 19px 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+}
+.details-modal_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 18px;  
+    margin-bottom: 17px;
+    position: relative;
+} 
+.details-modal_title:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 38px);
+    height: 1px;
+    background: #D8D8D8;
+    bottom: 0;
+    left: -19px;
+}
+.details-modal .dialog_item-info {
+    background: #BCE01A;
+}
+.details-modal .dialog_item:last-child {
+    margin-bottom: 0px;
+}
+.details-modal.fancybox__content > .carousel__button.is-close {
+    color: #B3B3B3;
+    top: 15px;
+    right: 17px;
+    width: 38px;
+    height: 38px;
+}
+.details-modal.fancybox__content > .carousel__button.is-close svg {
+    width: 38px;
+    height: 38px;
+}
+
+.auth .politic {
+    margin-top: 16px;
+}
+.auth .form .politic input[type=checkbox] + label {
+    color: #020027;
+    font-size: 14px;
+    line-height: 16px;
+    position: relative;
+    min-height: 16px;
+    padding-left: 32px;
+    cursor: pointer;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+.auth .form .politic input[type=checkbox] + label a {
+    text-decoration: none;
+    color: var(--main_color);
+}
+.auth .form .politic input[type=checkbox] + label:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    content: '';
+    transition: .2s linear;
+    border: 1px solid #C2C2C2;
+    border-radius: 4px;
+}
+.auth .form .politic input[type=checkbox] + label:after {
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    display: block;
+    width: 14px;
+    height: 7px;
+    content: '';
+    transition: opacity .2s linear;
+    opacity: 0;
+    border-bottom: 2px solid var(--main_color);
+    border-left: 2px solid var(--main_color);
+    transform: rotate(-45deg);
+    background: none;
+}
+.auth .form .politic input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+.auth .data .has_account {
+    padding-left: 32px;
 }
